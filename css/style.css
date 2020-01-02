@@ -1,3 +1,8 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -29,8 +34,6 @@ body {
 
 .main {
     width: 100%;
-    margin: 10px;
-    padding: 10px;
     position: relative;
     font-size: 1.5em;
 }
@@ -40,14 +43,15 @@ body {
     position: sticky;
     top: 0;
     float: left;
-    margin: 10px;
-    padding: 10px;
+    padding-top: 35px;
     width: 25%;
     height: 25vh;
 }
 
 #navmenu a {
     font-size: 1.5em;
+    padding: 0.5em;
+    white-space: nowrap;
 }
 
 .topbar {
