@@ -20,7 +20,9 @@ body {
     position: sticky;
     top: 0;
     float: left;
+    margin-right: 50px;
     padding-top: 35px;
+    padding-left: 25px;
 }
 
 .sidebar ul {
@@ -91,6 +93,7 @@ body {
 
 #sandwiches {
     float: left;
+    padding-left: 25px;
 }
 
 .drinks {
