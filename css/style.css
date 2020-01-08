@@ -15,9 +15,32 @@ body {
     }
 }
 
+.topbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topbar a {
+    text-decoration: none;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    float: left;
+}
+
+.topbar img {
+    height: 25px;
+    vertical-align: middle;
+}
+
+.topbar a:hover {
+    color: red;
+}
+
+.topbar-right {
+    float: right;
+}
+
 .sidebar {
-    position: -webkit-sticky;
-    position: sticky;
     top: 0;
     float: left;
     margin-right: 50px;
@@ -47,31 +70,6 @@ body {
 
 .sidebar a:hover {
     color: red;
-}
-
-.main {
-    width: 100%;
-    margin-left: 50px;
-}
-
-.topbar {
-    overflow: hidden;
-    background-color: #333;
-}
-
-.topbar a {
-    text-decoration: none;
-    color: #f2f2f2;
-    padding: 14px 16px;
-    float: left;
-}
-
-.topbar a:hover {
-    color: red;
-}
-
-.topbar-right {
-    float: right;
 }
 
 .row {
