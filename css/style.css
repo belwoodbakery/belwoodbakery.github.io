@@ -29,8 +29,15 @@ body {
 
 .topbar img {
     max-height: 20px;
-    max-width: 150px;
+    max-width: 200px;
     vertical-align: middle;
+}
+
+@media only screen and (min-width: 768px) {
+    .topbar img {
+        max-height: 30px;
+        max-width: 300px;
+    }
 }
 
 .topbar a:hover {
@@ -99,10 +106,7 @@ body {
     float: left;
 }
 
-#coffee {
-    margin-right: 50px;
-}
-
 #coffee, #tea {
     float: left;
+    padding: 0px 20px;
 }
